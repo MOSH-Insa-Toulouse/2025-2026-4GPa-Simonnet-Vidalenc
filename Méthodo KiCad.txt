@@ -1,0 +1,8 @@
+Méthodo KiCad : 
+
+Kicad_sch :
+-> Lisibilité : au lieu de tout connecter, créer des net label (comme sur LTSpice)
+-> plusieurs feuilles (interconnectées)
+---> premiere = vision fonctionnelle (par bloc) = 'top design'
+---> plan de cuivre
+---> 
