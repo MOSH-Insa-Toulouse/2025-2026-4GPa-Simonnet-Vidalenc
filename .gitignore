@@ -38,3 +38,9 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+
+# Local changes on Kicad Proj
+*.kicad_pro
+*.kicad_sym
+*.kicad_pcb
