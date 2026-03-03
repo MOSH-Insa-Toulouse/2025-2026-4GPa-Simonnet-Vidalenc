@@ -101,7 +101,7 @@ Voici la liste des différents composants présents sur notre PCB :
 
 ### 4.2. Schématique <a id="QuatriemeSection2"></a>
  
-<p align="center"><img width="700" alt="image" src="https://user-images.githubusercontent.com/124165435/234853183-e293a26c-0e21-4e3e-af6e-2de6d5d85f0d.png">
+
 
 * Amplificateur LTC1050
  
@@ -131,7 +131,7 @@ Le PCB a été fabriqué grâce au matériel mis à disposition au Génie Physiq
 
 ### 5.2 Perçage et soudure <a id="CinquiemeSection2"></a>
  
-<p align="center"><img width="230" alt="image" src="https://user-images.githubusercontent.com/124166161/235507646-271bc19c-6042-436d-ab8f-c0edf065983b.png">
+
 
 ⌀ 1.0mm : Broches de connexion de la carte Arduino Uno
 
@@ -140,10 +140,8 @@ Le PCB a été fabriqué grâce au matériel mis à disposition au Génie Physiq
 
 ## 6. Logiciel de simulation LTSpice <a id="SixiemeSection"></a>
  
-L'ensemble de notre circuit électronique a été simulé sur le logiciel LTSpice afin de comprendre et d'analyser son comportement dans des conditions réelles de valeurs de tension. Les différentes simulations ont permis d'une part de vérifier le bon fonctionnement du circuit et de chacun des composants intégrés, et d'autre part de comprendre l'utilité de chacun. Les images ci-dessous représentent la schématique du circuit ainsi qu'une réponse dans le temps de notre capteur à une stimulation. Se référer à la [datasheet](https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-almeras-lisoir/blob/main/Datasheet/Datasheet%20KTY2000.pdf) pour de plus amples informations.
+L'ensemble de notre circuit électronique a été simulé sur le logiciel LTSpice afin de comprendre et d'analyser son comportement dans des conditions réelles de valeurs de tension. Les différentes simulations ont permis d'une part de vérifier le bon fonctionnement du circuit et de chacun des composants intégrés, et d'autre part de comprendre l'utilité de chacun. Les images ci-dessous représentent la schématique du circuit ainsi qu'une réponse dans le temps de notre capteur à une stimulation. Se référer à la [datasheet] pour de plus amples informations.
  
-<p align="center"><img width="500" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-almeras-lisoir/assets/124166161/034001fe-f53c-4f8f-90dd-643e3f5e0450">
-<p align="center"><img width="400" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2022-2023-4gp-almeras-lisoir/assets/124166161/69e8a973-ebff-4334-b3cd-306d7e803378">
 
 
 
