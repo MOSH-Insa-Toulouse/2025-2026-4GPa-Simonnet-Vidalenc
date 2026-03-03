@@ -2455,6 +2455,17 @@
 			(uuid "4592b832-fafd-45af-9b50-4df599df4009")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LTC1050CN8_PBF/LTC1050CN8_PBF.step"
+			(offset
+				(xyz -4 3.75 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "capteur_graphite_lib:Resistance Variable"
 		(layer "F.Cu")
@@ -2932,6 +2943,17 @@
 			(uuid "4c401907-9bc5-4a5c-9417-bf6598b436a6")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/MCP41010-I_P/MCP41010-I_P.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "capteur_graphite_lib:R"
 		(layer "F.Cu")
@@ -3341,6 +3363,28 @@
 			(uuid "60535973-64f3-4d7f-b152-02620c5ae85f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/OLED SSD1306/OLED-128x64-0.96.step"
+			(offset
+				(xyz 34.5 -7.25 9.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/pin-header-female-2-54mm-different-pin-numbers-1.snapshot.4/4-Pin Header - Female - 2.54mm.step"
+			(offset
+				(xyz -3.75 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
 		(locked yes)
@@ -3691,6 +3735,28 @@
 			(uuid "dc5dd8b0-f0ea-4730-a4fc-f389729d0534")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/encodeur-rotatoire/KY-040 Rotary Encoder.STEP"
+			(offset
+				(xyz 5 -7 33.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 180 -0)
+			)
+		)
+		(model "${KIPRJMOD}/pin-header-female-2-54mm-different-pin-numbers-1.snapshot.4/5-Pin Header - Female - 2.54mm.step"
+			(offset
+				(xyz -5 0 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "capteur_graphite_lib:C"
 		(layer "F.Cu")
@@ -4231,6 +4297,17 @@
 			(uuid "c25c35b0-efa4-471f-8ebf-6580fd476e19")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/pin-header-female-2-54mm-different-pin-numbers-1.snapshot.4/2-Pin Header - Female - 2.54mm.step"
+			(offset
+				(xyz -1.25 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "capteur_graphite_lib:Servo Moteur"
 		(layer "F.Cu")
@@ -4454,6 +4531,17 @@
 			(uuid "dce5144b-1ae9-4bb9-9800-32fb73ebd837")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/pin-header-female-2-54mm-different-pin-numbers-1.snapshot.4/3-Pin Header - Female - 2.54mm.step"
+			(offset
+				(xyz -2.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "capteur_graphite_lib:R"
 		(layer "F.Cu")
@@ -4826,6 +4914,17 @@
 			(uuid "205307a6-9f61-478c-a795-7a74d790834e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/pin-header-female-2-54mm-different-pin-numbers-1.snapshot.4/2-Pin Header - Female - 2.54mm.step"
+			(offset
+				(xyz -1.25 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "capteur_graphite_lib:Bluetooth HC05"
 		(layer "F.Cu")
@@ -5073,6 +5172,28 @@
 			(uuid "ed7d752e-39aa-4096-91f7-5dc1ac4f2cb9")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/hc05-bluetooth/HC05.STEP"
+			(offset
+				(xyz 0 5.5 23)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 90 -0)
+			)
+		)
+		(model "${KIPRJMOD}/pin-header-female-2-54mm-different-pin-numbers-1.snapshot.4/4-Pin Header - Female - 2.54mm.step"
+			(offset
+				(xyz -3.75 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "capteur_graphite_lib:R"
 		(layer "F.Cu")
