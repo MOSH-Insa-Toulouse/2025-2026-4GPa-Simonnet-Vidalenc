@@ -27,15 +27,14 @@
 
 ## 1. Description du projet <a id="PremiereSection"></a>
 
-Ce projet s'inscrit dans le cadre de l'unité de formation "Du capteur au banc de test en open source hardware". Ce cours est dispensé en quatrième année au sein du département de Génie Physique de l'INSA Toulouse.
-Ce projet s'étend sur le deuxième semestre de l'année 2022-2023 et a pour but de nous sensibiliser aux différentes étapes de conception et d'analyse utiles à la création d'un capteur.
+Ce projet s'inscrit dans le cadre de l'unité de formation "Du capteur au banc de test en open source hardware". Ce cours est dispensé en quatrième année au sein du département de Génie Physique de l'INSA Toulouse et a pour but de nous sensibiliser aux différentes étapes de conception et d'analyse utiles à la création d'un capteur.
 
 
 ### 1.1 Caractéristiques et travaux de recherche préliminaires sur le capteur <a id="PremiereSection1"></a>
 
 Le KTY2000 est un exemple de technologie low-tech à base de graphite. Ce projet s’inspire du travail mené par plusieurs scientifiques et publié dans [cet article](https://www.nature.com/articles/srep03812) en 2014. En effet, les études ont révélé les nombreux avantages du carbone graphite. L’électronique à base de papier attire de plus en plus les ingénieur.es de par sa facilité d’approvisionnement, de fabrication et son faible coût. Il suffit dans notre cas de déposer une fine couche de graphite sur le substrat naturellement poreux pour former la base du capteur. Les mines de crayon sont constituées de réseaux percolés de fines poudres de graphite liées entre elles par des argiles, permettant d’obtenir après dépôt de fins films conducteurs non fabriqués en laboratoire. 
 
-Le système à l’étude est granulaire, autrement dit il existe une dépendance entre la conductivité électrique et l’espace moyen entre les nanoparticules de graphite. Ainsi, une déformation de la feuille de papier va modifier la conductivité globale de la couche de graphite, induisant des changements de résistances réversibles lors des déformations en compression ou en traction. Ceci constitue en fait le principe d'une jauge de contrainte. 
+Le système à l’étude est granulaire, autrement dit il existe une dépendance entre la conductivité électrique (notamment par effet tunnel) et l’espace moyen entre les nanoparticules de graphite. Ainsi, une déformation de la feuille de papier va modifier la conductivité globale de la couche de graphite, induisant des changements de résistances réversibles lors des déformations en compression ou en traction. Ceci constitue en fait le principe d'une jauge de contrainte. 
 L’expérience est réalisée avec différentes duretés de mine de crayon (2H, HB, 2B). Les mesures de résistance pour chaque crayon sont réalisées en fonction de différents rayons de courbure (soit la déformation) ou de l’angle de flexion de notre capteur. Cela permet une caractérisation complète de chaque type de crayon et ainsi de notre capteur. 
 
 Dans notre cas, les traces de crayon sont déposées sur du papier comme vu ci-dessous. Une fois colorié, le capteur est connecté à un système de mesures externe via des pinces crocodiles reliées à un PCB et branché sur une carte Arduino Uno.
@@ -60,9 +59,9 @@ Pour mener ce projet, nous avons d'abord suivi différents cours et TPs.
 
 ## 2. Livrables du projet <a id="DeuxièmeSection"></a>
 
-* Un shield PCB devra être designé et fabriqué. Il sera ensuite connecté à une plaque Arduino UNO. Le shield doit contenir au minimum un amplificateur transimpédence, un module Bluetooth, et si possible un écran OLED et un encodeur rotatoire pour la calibration du capteur.
+* Un shield PCB devra être designé et fabriqué. Il sera ensuite connecté à une plaque Arduino UNO. Le shield doit contenir au minimum un amplificateur transimpédence, un module Bluetooth, un écran OLED et un encodeur rotatoire pour la calibration du capteur.
 
-* La carte Arduino fonctionnera avec un code permettant de mesurer la containte appliquée sur le capteur. Si besoin, la carte devra aussi contrôler le module Bluetooth, l'écran OLED et l'encodeur rotatoire.
+* La carte Arduino fonctionnera avec un code permettant de mesurer la containte appliquée sur le capteur. La carte devra aussi communiquer avec le module Bluetooth, et contrôler et communiquer avec l'écran OLED grâce à l'encodeur rotatoire.
 
 * Une application Android APK
 * Un protocole de test
