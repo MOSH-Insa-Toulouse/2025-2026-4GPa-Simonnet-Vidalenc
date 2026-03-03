@@ -8223,7 +8223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u"
+		(property "Value" "1u"
 			(at 135.89 123.1899 0)
 			(effects
 				(font
@@ -8232,7 +8232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "capteur_graphite_lib:C"
+		(property "Footprint" "capteur_graphite_lib:C - 5,08"
 			(at 133.0452 125.73 0)
 			(effects
 				(font

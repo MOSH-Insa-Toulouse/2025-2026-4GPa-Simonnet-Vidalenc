@@ -41,6 +41,6 @@ fp-info-cache
 
 
 # Local changes on Kicad Proj
-*.kicad_pro
-*.kicad_sym
-*.kicad_pcb
+#*.kicad_pro
+#*.kicad_sym
+#*.kicad_pcb
