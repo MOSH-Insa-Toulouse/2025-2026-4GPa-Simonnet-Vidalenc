@@ -12,7 +12,6 @@
     - [4.1. Symboles et empreintes des composants ](#41-symboles-et-empreintes-des-composants-)
     - [4.2. Schématique ](#42-schématique-)
     - [4.3. Placement des composants ](#43-placement-des-composants-)
-    - [4.4. Visualisation 3D ](#44-visualisation-3d-)
   - [5. Fabrication du shield ](#5-fabrication-du-shield-)
     - [5.1 Réalisation du PCB ](#51-réalisation-du-pcb-)
     - [5.2 Perçage et soudure ](#52-perçage-et-soudure-)
@@ -101,36 +100,52 @@ Voici la liste des différents composants présents sur notre PCB :
 
 ### 4.2. Schématique <a id="QuatriemeSection2"></a>
  
-
+<p align="center"><img width="500" alt='image' src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20Sch%C3%A9matique%20globale.png">
 
 * Amplificateur LTC1050
 <p> 
 <img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20LTC1050.png">
 
-<img  width="300" height="100" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20LTC1050.png">
+<img  width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20LTC1050.png">
 </p>
 
 * MCP41010
- 
+ <p> 
+<img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20MCP41010.png">
+
+<img  width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20Res%20Variable.png">
+</p>
 
 * Ecran OLED
+ <p> 
+<img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20OLED%201306.png">
+
+<img  width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20OLED%201306.png">
+</p>
  
 
 * Flex sensor
+ <p> 
+<img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20Flex%20Sensor.png">
+
+<img  width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20Flex%20Sensor.png">
+</p>
   
 
 * Bluetooth HC-05
+ <p> 
+<img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20Bluetooth%20HC05.png">
+
+<img  width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20Bluetooth%20HC05.png">
+</p>
  
 
 
 
 ### 4.3. Placement des composants <a id="QuatriemeSection3"></a>
  
-
+<p align="center"><img width="450" alt='image' src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/PCB%20Shield%20Complet.png">
  
-### 4.4. Visualisation 3D <a id="QuatriemeSection4"></a>
- 
-
 
 
 ## 5. Fabrication du shield <a id="CinquiemeSection"></a>
