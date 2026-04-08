@@ -97,12 +97,18 @@ Voici la liste des différents composants présents sur notre PCB :
 * MCP41010
 * Ecran OLED
 * Flex sensor
+* Bluetooth HC-05
 
 ### 4.2. Schématique <a id="QuatriemeSection2"></a>
  
 
 
 * Amplificateur LTC1050
+<p align="left"><img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20LTC1050.png">
+
+<p align="right"><img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20LTC1050.png">
+
+* MCP41010
  
 
 * Ecran OLED
