@@ -104,9 +104,11 @@ Voici la liste des différents composants présents sur notre PCB :
 
 
 * Amplificateur LTC1050
-<p align="left"><img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20LTC1050.png">
+<p> 
+<img align="left" width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BSCH%5D%20LTC1050.png">
 
-<p align="right"><img width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20LTC1050.png">
+<img align="right" width="300" alt="image" src="https://github.com/MOSH-Insa-Toulouse/2025-2026-4GPa-Simonnet-Vidalenc/blob/main/Images/%5BPCB%5D%20LTC1050.png">
+</p>
 
 * MCP41010
  
