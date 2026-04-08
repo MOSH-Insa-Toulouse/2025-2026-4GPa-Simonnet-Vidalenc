@@ -109,6 +109,9 @@ Voici la liste des différents composants présents sur notre PCB :
  
 
 * Flex sensor
+  
+
+* Bluetooth HC-05
  
 
 
@@ -128,9 +131,9 @@ Voici la liste des différents composants présents sur notre PCB :
 
 Le PCB a été fabriqué grâce au matériel mis à disposition au Génie Physique et au Génie Électrique et Informatique de l'INSA Toulouse. Les manipulations ont été faites avec l'aide de Catherine Crouzet. La modélisation du PCB fait sur [KiCad]() a été imprimée sur du papier calque tranparent. Ce motif a été ensuite transféré par UVs sur la plaquette d'epoxy finement recouverte d'une couche de cuivre. À l'aide d'un révelateur, la partie non insolée de la résine a été retirée. La plaquette d'expoxy a été ensuite placée dans un bain de perchlorure de fer pour que le cuivre non protégé par la résine soit retiré de la plaquette. Enfin, la plaque a été nettoyée des dernières traces de résine avec de l'acétone.
 
-### 5.2 Perçage et soudure <a id="CinquiemeSection2"></a>
- 
+Par soucis de convention, les pattes "1" de chaque composant sont en forme de carré
 
+### 5.2 Perçage et soudure <a id="CinquiemeSection2"></a>
 
 ⌀ 1.0mm : Broches de connexion de la carte Arduino Uno
 
@@ -139,7 +142,7 @@ Le PCB a été fabriqué grâce au matériel mis à disposition au Génie Physiq
 
 ## 6. Logiciel de simulation LTSpice <a id="SixiemeSection"></a>
  
-L'ensemble de notre circuit électronique a été simulé sur le logiciel LTSpice afin de comprendre et d'analyser son comportement dans des conditions réelles de valeurs de tension. Les différentes simulations ont permis d'une part de vérifier le bon fonctionnement du circuit et de chacun des composants intégrés, et d'autre part de comprendre l'utilité de chacun. Les images ci-dessous représentent la schématique du circuit ainsi qu'une réponse dans le temps de notre capteur à une stimulation. Se référer à la [datasheet] pour de plus amples informations.
+L'ensemble de notre circuit électronique a été simulé sur le logiciel LTSpice afin de comprendre et d'analyser son comportement dans des conditions réelles de valeurs de tension. Les différentes simulations ont permis d'une part de vérifier le bon fonctionnement du circuit et de chacun des composants intégrés, et d'autre part de comprendre l'utilité de chacun. Les images ci-dessous représentent la schématique du circuit. Se référer à la [datasheet] pour de plus amples informations.
  
 
 
